@@ -27,8 +27,8 @@ inside developing container
     --enable-nonfree \
     --enable-shared \
     --disable-static \
-	--disable-ffplay \
-	--prefix=$HOME/workspace/shared_libs/ffmpeg8.0 \
+    --disable-ffplay \
+    --prefix=$HOME/workspace/shared_libs/ffmpeg8.0 \
     --extra-cflags=-I/usr/local/cuda/include \
     --extra-ldflags=-L/usr/local/cuda/lib64 \
     --enable-cuda-nvcc \
